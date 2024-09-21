@@ -1,0 +1,28 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --fs: 70px;
+    
+    --pink:pink;
+    --white:white;
+}
+
+.fs-70px {
+    font-size: 70px;
+}
+
+@media (min-width:567px) {
+    :root {
+        --fs: 70px;
+
+    }
+
+
+}
