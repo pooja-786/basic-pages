@@ -219,7 +219,7 @@
 }
 
 .btn-1 {
-    background-color: blue;
+    background: rgba(44, 73, 254, 1);
     border-radius: 3rem;
     padding: 11px 28px;
     display: inline-block;
@@ -231,6 +231,16 @@
     line-height: 24px;
     margin: 10px;
     font-size: 16px;
+}
+
+.Lorem {
+    background-color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-left: 10px;
+    padding: 25px 30px;
+    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .card {
@@ -272,6 +282,7 @@
 .card-image {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    margin: 5px;
 
 }
 
@@ -279,12 +290,13 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-h4 {
+.writers {
     font-family: "Work Sans", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 50px;
     text-align: center;
+    line-height: 24.72px;
+    margin-top: 20px;
 }
 
 .design {
@@ -362,8 +374,13 @@ h4 {
 .box {
     border-radius: 10px;
     margin-bottom: 20px;
-    background-color: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(235, 234, 237, 1);
+
+
 }
+
 
 .card-logo {
     margin-left: 10px;
@@ -373,7 +390,6 @@ h4 {
     height: 113px;
     align-items: center;
     justify-content: center;
-    background-color: rgba(235, 234, 237, 1);
     border-radius: 10px;
     display: flex;
 }
@@ -387,6 +403,15 @@ h4 {
     color: rgba(37, 43, 66, 1);
     left: 30px;
     padding: 20px 0px 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+
+}
+
+.svg-1 {
+    margin-top: 8px;
 }
 
 .text-2 {
@@ -482,6 +507,7 @@ h6 {
     line-height: 52px;
     letter-spacing: -0.4000000059604645px;
     color: rgba(30, 14, 98, 1);
+    margin-bottom: 20px;
 }
 
 .text-change {
@@ -492,8 +518,6 @@ h6 {
     background: rgba(235, 234, 237, 1);
     border-radius: 10px;
     max-width: 770px;
-    white-space: nowrap;
-    overflow: auto;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -527,7 +551,7 @@ h6 {
 }
 
 .great {
-    padding: 20px;
+    padding: 10px;
 }
 
 .text-text1 {
@@ -574,6 +598,7 @@ td {
     height: 50px;
     width: 230px;
     cursor: pointer;
+    color: rgba(30, 14, 98, 1);
 
 }
 
@@ -615,6 +640,7 @@ td {
     text-align: center;
     color: rgba(30, 14, 98, 1);
     padding-right: 52px;
+    margin-bottom: 20px;
 }
 
 .modify1 {
@@ -628,7 +654,7 @@ td {
 
 .paragraph {
     font-family: "DM Sans", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: rgba(30, 14, 98, 1);
@@ -640,6 +666,7 @@ td {
 
 .bg-grey {
     background-color: rgba(235, 234, 237, 0.925);
+    font-family: "DM Sans", sans-serif;
 }
 
 
@@ -665,51 +692,53 @@ td {
     font-family: "DM Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: #1e0e62;
-    padding-left: 90px;
-    margin-bottom: 30px;
-
-}
-
-.article-l {
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
     color: rgba(30, 14, 98, 1);
-    padding-left: 90px;
+    line-height: 31.25px;
+    letter-spacing: -0.2926828861236572px;
 
 }
 
 .article-2 {
     font-family: "DM Sans", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(30, 14, 98, 1);
-    margin-bottom: 30px;
-    margin-left: 100px;
+    padding-bottom: 20px;
+    text-align: lefts;
+    line-height: 28px;
 
 }
 
+
+
 .article-3 {
     font-family: "DM Sans", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(30, 14, 98, 1);
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .text {
     font-family: "DM Sans", sans-serif;
-    line-height: 20px;
-    font-size: 15px;
+    line-height: 26px;
+    font-size: 16px;
     color: rgba(21, 20, 57, 0.4);
-    padding-left: 90px;
+    text-align: left;
+    margin-top: 25px;
+
+}
+
+.text-left {
     text-align: left;
 }
 
-.text-3 {
+.ul-list {
     font-family: "DM Sans", sans-serif;
     line-height: 30px;
-    font-size: 14px;
-    color: rgba(21, 20, 57, 0.4);
-    padding-left: 90px;
-    text-align: left;
+    font-size: 16px;
+    color: rgba(30, 14, 98, 1);
+    margin-top: 5px;
 }
 
 .text-4 {
@@ -723,9 +752,8 @@ td {
 
 
 .social-icon {
-    padding-left: 10px;
-    letter-spacing: 30px;
-    margin-top: 40px;
+    line-height: 90px;
+    padding-left: 20px;
 
 }
 
@@ -739,17 +767,25 @@ td {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    color: rgba(21, 20, 57, 0.4);
+
 }
 
 .btn-2 {
-    padding: 10px 10px 10px 10px;
-    border-radius: 40px 40px 40px 40px;
-    background-color: rgba(37, 218, 197, 1);
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
     font-family: "DM Sans", sans-serif;
     border: 2px solid rgba(37, 218, 197, 1);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    line-height: 22px;
+    text-align: center;
+    background-color: rgba(37, 218, 197, 1);
 }
 
 .justify-content-between {
@@ -773,9 +809,8 @@ td {
 }
 
 /*content-32*/
-.responsive-payout {
-    overflow: auto;
-}
+
+
 
 .contact {
 
@@ -819,6 +854,9 @@ td {
     background: rgba(235, 234, 237, 1);
     padding: 30px 30px 30px 0px;
     margin-top: 80px;
+    width: 270px;
+    height: 326px;
+
 
 
 
@@ -864,7 +902,7 @@ td {
 
 /*content-33*/
 
-.responsive-style-content {
+.responsive-inside {
     overflow: auto;
 }
 
@@ -924,7 +962,7 @@ td {
 
 .card-touch {
     width: 368.5px;
-    height: 308.5px;
+
 }
 
 
@@ -937,8 +975,8 @@ td {
     background-color: rgba(235, 234, 237, 1);
     padding: 50px;
     width: 470px;
-    height: 550px;
-    
+    height: 530px;
+
 
 
 }
@@ -962,22 +1000,25 @@ td {
     line-height: 26px;
     color: rgba(21, 20, 57, 0.4);
     margin-top: 20px;
-    margin-left: 30px;
+
+
 }
 
 .header-1 {
     font-family: "DM Sans", sans-serif;
     font-size: 22px;
     color: rgba(30, 14, 98, 1);
-    margin-left: 30px;
+
     margin-top: 20px;
+    border-top: 2px solid rgba(235, 234, 237, 1);
+    padding-top: 20px;
 }
 
 .header-2 {
     font-family: "DM Sans", sans-serif;
     font-size: 49px;
     color: rgba(30, 14, 98, 1);
-    margin-left: 30px;
+
 }
 
 .mail {
@@ -989,7 +1030,6 @@ td {
 
 .call {
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 .number {
@@ -998,7 +1038,8 @@ td {
     font-weight: 500;
     color: rgba(30, 14, 98, 1);
     line-height: 50px;
-    margin-top: 20px;
+
+
 }
 
 .email {
@@ -1011,13 +1052,9 @@ td {
 
 .email-icon {
     margin-top: 10px;
-    margin-left: 20px;
+
 }
 
-.line-1 {
-    margin-top: 30px;
-    margin-left: 30px;
-}
 
 .paragraph-4 {
     font-family: "DM Sans", sans-serif;
@@ -1025,7 +1062,6 @@ td {
     color: rgba(21, 20, 57, 0.4);
     margin-top: 20px;
     margin-bottom: 10px;
-    padding-left: 30px;
     padding-bottom: 15px;
 }
 
@@ -1049,6 +1085,17 @@ td {
     line-height: 26px;
     letter-spacing: 2px;
     color: rgba(30, 14, 98, 1);
+
+}
+
+.color-change {
+    color: rgba(30, 14, 98, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
 }
 
 .name {
@@ -1088,6 +1135,7 @@ input[type="email"] {
     height: 170px;
     width: 370px;
     margin-bottom: 24px;
+    resize: none;
 }
 
 input[type="name"] {
@@ -1123,6 +1171,11 @@ input[type="name"] {
     background-size: cover;
     border-radius: 2rem;
     padding: 50px;
+    margin-top: 50px;
+}
+
+.py-50 {
+    top: 50%;
 }
 
 .z-1 {
@@ -1416,6 +1469,12 @@ input[type="name"] {
         padding-right: 12px;
     }
 
+    .col-lg-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
     .col-lg-8 {
         width: 66.66%;
         padding-left: 12px;
@@ -1439,11 +1498,8 @@ input[type="name"] {
         overflow: auto;
     }
 
-    .responsive-payout {
+    .responsive-inside {
         overflow: auto;
     }
 
-    .responsive-style-content {
-        overflow: auto;
-    }
 }
